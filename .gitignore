@@ -1,0 +1,61 @@
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build output
+# =========================
+dist/
+build/
+coverage/
+
+# =========================
+# Private project files
+# =========================
+plan/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# IDE / OS junk
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Runtime files
+# =========================
+uploads/
+tmp/
+temp/
+
+# =========================
+# Keys / certificates
+# =========================
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+service-account*.json
+firebase-adminsdk*.json
+credentials.json
+secrets.*
